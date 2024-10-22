@@ -13,8 +13,8 @@ public class F1 extends Car {
         int newSpeed = 0; //set the value of new speed by using currentSpeed and rate
 
         newSpeed=newSpeed+rate+getCurrentSpeed();
-
-       // System.out.println(newSpeed+" new speed");
+        setCurrentSpeed(newSpeed);
+        //System.out.println(newSpeed+" new speed");
         /**
          * speed 0: gear 1
          * speed 1-50: gear 1
